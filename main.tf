@@ -21,3 +21,5 @@ resource "aws_instance" "my-test-server" {
     Name = "My Test Server"
   }
 }
+
+# Tutorial-03
