@@ -18,7 +18,7 @@ resource "aws_instance" "my-test-server" {
   instance_type = "t1.micro"
 
   tags = {
-    Name = "My Test Server"
+    Name = var.inst_name
   }
 }
 
